@@ -64,7 +64,6 @@ body{
     color: dimgray;
 }
 
-
 .heading_img img{
     border-radius: 30px;
     display: inline;
@@ -72,19 +71,6 @@ body{
     height: 26px;
     box-shadow: 0 1px 1px rgba(0,0,0,0.2);
     float: right;
-}
-
-.heading_soptlight form{
-    float: right;
-    width:100px;
-    height: 26px;
-    position: relative;
-    margin-right: 50px;
-}
-
-.heading_soptlight form input{
-    height: 26px;
-    border-radius: 30px;
 }
 
 .body{
