@@ -1,19 +1,36 @@
 .wardrobe {
     position: relative;
     margin-top: 20px;
-
 }
-.img_box{
+
+.img_box {
     position: relative;
     float: left;
 }
-.img_content{
+
+.img_content {
     padding: 10px;
     border: 1px solid #ccc;
     box-shadow: 0 0 5px #ccc;
     border-radius: 5px;
 }
-.img_content img{
+
+.img_content img {
     width: 190px;
     height: auto;
+}
+
+.add_wardrobe {
+    padding-top: 10px;
+    width: 80px;
+    height: 80px;
+
+    /* 上下间隔0px,左右自适应 实现居中*/
+    margin: 0px auto;
+}
+
+#btn_add_wardrobe {
+    width: 100%;
+    height: 100%;
+    /* 上下间隔0px,左右自适应 实现居中*/
 }

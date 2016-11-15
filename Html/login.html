@@ -2,13 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/header_foot.css"/>
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
     <title>登录</title>
 </head>
 <body>
-    <form action="clothes.html" method="post">
-        UserName:<input type="text" name="username"><br>
-        Password:<input type="password" name="password"><br>
-        <input type="submit" value="submit">
-    </form>
+
+<div class="container">
+    <div class="wrapper">
+        <div class="heading">
+            <div class="heading_title">
+                我的分布式衣柜
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="login">
+                <form action="clothes.html" method="post">
+
+                    <div id="login_input">
+                        <input id="username" type="text" name="username" placeholder="请输入帐号">
+                        <input id="pwd" type="password" name="password" placeholder="请输入密码">
+                        <input id="submit" type="submit" value="登录">
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footing">
+        @我的分布式衣柜
+    </div>
+</div>
+
+
 </body>
 </html>

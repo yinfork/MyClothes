@@ -9,7 +9,6 @@ body{
 
 .wrapper{
     width: 80%;
-    height: 1000px;
     background-color: antiquewhite;
 
     /* 上下间隔0px,左右自适应 实现居中*/
