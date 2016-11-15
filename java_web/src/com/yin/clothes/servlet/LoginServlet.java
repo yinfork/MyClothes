@@ -37,13 +37,17 @@ public class LoginServlet extends HttpServlet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 			try {
-				conn.rollback();
+				if(null != conn){
+					conn.rollback();
+				}
 			} catch (SQLException e1) {
 				e1.printStackTrace();
 			}
 		} finally {
 			try {
-				conn.close();
+				if(null != conn){
+					conn.close();
+				}
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
@@ -75,7 +79,7 @@ public class LoginServlet extends HttpServlet {
 			boolean bool = check(user);
 
 			if (bool) {
-				forward = "/clothes.html";
+				forward = "/clothesServlet";
 			} else {
 				forward = "/login.html";
 			}
