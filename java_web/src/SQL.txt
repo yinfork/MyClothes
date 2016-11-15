@@ -1,0 +1,9 @@
+CREATE TABLE tbl_user (
+    s_username VARCHAR(255) NOT NULL,
+    s_password VARCHAR(255) NOT NULL,
+    id INT(20) NOT NULL AUTO_INCREMENT,
+    PRIMARY KEY (id)
+);
+
+
+insert into tbl_user (s_username,s_password) values ('yin','123456');
