@@ -3,7 +3,11 @@ $(document).ready(function () {
         imgLocation();
     });
 
-
+    $("#btn_add_wardrobe").click(function(){
+        console.log("on click btn_add_wardrobe");
+        $("#add_wardrobe_form").slideToggle("slow");
+        $("#btn_add_wardrobe").fadeOut();
+    });
 });
 
 

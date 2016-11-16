@@ -34,3 +34,23 @@
     height: 100%;
     /* 上下间隔0px,左右自适应 实现居中*/
 }
+
+#add_wardrobe_form{
+    display: none;
+    width: 150px;
+    margin: 0px auto;
+}
+
+#wardrobe_name{
+    margin-top: 10px;
+    height: 25px;
+}
+
+#wardrobe_submit{
+    margin-top: 10px;
+    height: 25px;
+    font-size: larger;
+}
+
+
+

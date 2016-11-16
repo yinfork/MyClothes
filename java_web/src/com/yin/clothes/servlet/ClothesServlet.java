@@ -15,7 +15,6 @@ public class ClothesServlet extends HttpServlet {
 
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
 		ArrayList<Clothes> clothesList = new ArrayList<Clothes>();
 		
 		clothesList.add(new Clothes(1,"1","resources/img/1.jpg"));
@@ -32,7 +31,5 @@ public class ClothesServlet extends HttpServlet {
 		HttpSession session=request.getSession();
 		session.setAttribute("ClothesList",clothesList);
 		response.sendRedirect(request.getContextPath()+"/clothes.jsp");
-		
 	}
-
 }
