@@ -49,6 +49,14 @@
 						}
 					%>
 				</div>
+				<div class="add_wardrobe">
+					<img id="btn_add_wardrobe" src="resources/img/add.jpeg">
+				</div>
+				<div id="add_wardrobe_form">
+					新增衣柜<br> 
+					<input id="wardrobe_name" type="text" name="username" placeholder="请输入衣柜名称"> 
+					<input id="wardrobe_submit" type="submit" value="新增">
+				</div>
 			</div>
 		</div>
 
